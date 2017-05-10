@@ -7,6 +7,7 @@ male(junior).
 male(givaldo).
 male(gilto).
 male(gilmar).
+male(jeff).
 
 female(jessica).
 female(herica).
@@ -16,11 +17,14 @@ female(valeria).
 female(priscila).
 female(luana).
 female(cleide).
+female(monica).
 
 parent(lucivaldo, gabriel).
 parent(herica, gabriel).
 parent(lucivaldo, jessica).
 parent(herica, jessica).
+parent(lucivaldo, jeff).
+parent(monica, jeff).
 
 parent(fatima, lucivaldo).
 parent(benedito, lucivaldo).
