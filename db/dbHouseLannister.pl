@@ -37,68 +37,68 @@ female(myrcella, baratheon).
 female(joy, hill).
 
 % parent(pai ou mae, filho).
-parent(damon, tybolt).
-parent(damon, gerold).
+parent(damon, lannister, tybolt, lannister).
+parent(damon, lannister, gerold, lannister).
 
-parent(tybolt, sarelle).
+parent(tybolt, lannister, sarelle, lannister).
 
-parent(gerold, tywald).
+parent(gerold, lannister, tywald, lannister).
 
-parent(gerold, tion).
+parent(gerold, lannister, tion, lannister).
 
-parent(gerald, tytos).
+parent(gerold, lannister, tytos, lannister).
 
-parent(gerald, jason).
+parent(gerold, lannister, jason, lannister).
 
-parent(tytos, tywin).
-parent(jeyne, tywin).
+parent(tytos, lannister, tywin, lannister).
+parent(jeyne, marbrand, tywin, lannister).
 
-parent(tytos, kevan).
-parent(jeyne, kevan).
+parent(tytos, lannister, kevan, lannister).
+parent(jeyne, marbrand, kevan, lannister).
 
-parent(tytos, genna).
-parent(jeyne, genna).
+parent(tytos, lannister, genna, lannister).
+parent(jeyne, marbrand, genna, lannister).
 
-parent(tytos, tygget).
-parent(jeyne, gerion).
+parent(tytos, lannister, tygget, lannister).
+parent(jeyne, marbrand, tygget, lannister).
 
-parent(tytos, gerion).
-parent(jeyne, tygget).
+parent(tytos, lannister, gerion, lannister).
+parent(jeyne, marbrand, gerion, lannister).
 
-parent(tywin, cersei).
-parent(joanna, cersei).
+parent(tywin, lannister, cersei, lannister).
+parent(joanna, lannister, cersei, lannister).
 
-parent(tywin, jaime).
-parent(joanna, jaime).
+parent(tywin, lannister, jaime, lannister).
+parent(joanna, lannister, jaime, lannister).
 
-parent(tywin, tyrion).
-parent(joanna, tyrion).
+parent(tywin, lannister, tyrion, lannister).
+parent(joanna, lannister, tyrion, lannister).
 
-parent(kevan, lancel).
-parent(dorna, lancel).
+parent(kevan, lannister, lancel, lannister).
+parent(dorna, swyft, lancel, lannister).
 
-parent(kevan, willem).
-parent(dorna, willem).
+parent(kevan, lannister, willem, lannister).
+parent(dorna, swyft, willem, lannister).
 
-parent(kevan, martyn).
-parent(dorna, martyn).
+parent(kevan, lannister, martyn, lannister).
+parent(dorna, swyft, martyn, lannister).
 
-parent(kevan, janei).
-parent(dorna, janei).
+parent(kevan, lannister, janei, lannister).
+parent(dorna, swyft, janei, lannister).
 
-parent(tygget, tyrek).
-parent(darlessa, tyrek).
+parent(tygget, lannister, tyrek, lannister).
+parent(darlessa, marbrand, tyrek, lannister).
 
-parent(gerion, joy).
+parent(gerion, lannister, joy, hill).
 
-parent(cersei, joffrey).
-parent(robert, joffrey).
-parent(jaime, joffrey).
+parent(cersei, lannister, joffrey, baratheon).
+parent(robert, baratheon, joffrey, baratheon).
+parent(jaime, lannister, joffrey, baratheon).
 
-parent(cersei, myrcella).
-parent(robert, myrcella).
-parent(jaime, myrcella).
+parent(cersei, lannister, myrcella, baratheon).
+parent(robert, baratheon, myrcella, baratheon).
+parent(jaime, lannister, myrcella, baratheon).
 
-parent(cersei, tommen).
-parent(robert, tommen).
-parent(jaime, tommen).
+parent(cersei, lannister, tommen, baratheon).
+parent(robert, baratheon, tommen, baratheon).
+parent(jaime, lannister, tommen, baratheon).
