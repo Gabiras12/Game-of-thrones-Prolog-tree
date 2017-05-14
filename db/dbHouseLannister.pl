@@ -1,19 +1,34 @@
-male(damon).
-male(tybolt).
-male(gerold).
-male(tywald).
-male(tion).
-male(tytos).
-male(jason).
-male(tywin).
-male(kevan).
-male(tygget).
-male(gerion).
-male(jaime).
-male(tyrion).
-male(lancel).
-male(willem).
-male(martyn).
-male(tyrek).
-male(joffrey).
-male(tommen).
+male(damon, lannister).
+male(tybolt, lannister).
+male(gerold, lannister).
+male(tywald, lannister).
+male(tion, lannister).
+male(tytos, lannister).
+male(jason, lannister).
+male(tywin, lannister).
+male(kevan, lannister).
+male(emmon, frey).
+male(tygget, lannister).
+male(gerion, lannister).
+male(jaime, lannister).
+male(tyrion, lannister).
+male(lancel, lannister).
+male(willem, lannister).
+male(martyn, lannister).
+male(tyrek, lannister).
+male(robert, baratheon).
+male(joffrey, baratheon).
+male(tommen, baratheon).
+
+female(jeyne, marbrand).
+female(sarelle, lannister).
+female(joanna, lannister).
+female(dorna, swyft).
+female(genna, lannister).
+female(darlessa, marbrand).
+female(cersei, lannister).
+female(amerei, frey).
+female(janei, lannister).
+female(ermesande, hayford).
+female(margaery, tyrell).
+female(myrcella, baratheon).
