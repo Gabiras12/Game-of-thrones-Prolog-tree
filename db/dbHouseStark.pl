@@ -62,3 +62,68 @@ male("jon snow").
 male("robb stark").
 male("bran stark").
 male("rickon stark").
+
+female("lysa locke").
+
+female("gilliane glover").
+female("margaret kastark").
+
+female("arra norrey").
+female("alysanne blackwood")
+female("lynara").
+
+female("jeyne manderley").
+
+/*alysanne daughters*/
+female("sarra stark").
+female("alys stark").
+female("raya stark").
+female("mariah stark").
+
+/*lynara daughters*/
+female("lyanna stark").
+
+female("wylla fenn").
+female("alys kastark").
+
+/*jeyne manderley daughters*/
+female("serena stark").
+female("sansa stark").
+
+/*serena daughters*/
+female("argelle stark").
+female("arrana stark").
+
+female("myriame stark").
+female("lorra royce").
+
+/*alys daughter*/
+female("arsa lannister").
+
+/*lorra royce daughters*/
+female("berrena stark").
+female("alysanne stark").
+
+female("lyanne glover").
+female("melantha blackwood").
+female("lysara karstark").
+female("arya flint").
+
+/*melantha daughter*/
+female("jocelyn stark").
+
+female("marna locke").
+
+/*arya flint daughters*/
+female("lyarra stark").
+female("branda stark").
+
+female("lyanna stark").
+
+female("catelyn tully").
+
+female("jeyne westerling").
+
+/*catelyn daughters*/
+female("sansa stark").
+female("arya stark").
