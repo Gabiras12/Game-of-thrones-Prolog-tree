@@ -24,7 +24,7 @@ female("dorea sand").
 female("loreza sand").
 
 parent("lewyn martell", "doran martell").
-parent("princesa dorne", "doran martell").
+parent("princesa de dorne", "doran martell").
 
 parent("lewyn martell", "mors martell").
 parent("princesa dorne", "mors martell").

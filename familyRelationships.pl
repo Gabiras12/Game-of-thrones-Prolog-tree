@@ -13,7 +13,6 @@ child(X,Y) :-
 sibling(X,Y) :-
   father(A, X),
   father(A, Y),
-  Y \= X;
   mother(B, X),
   mother(B, Y),
   Y \= X.
@@ -24,7 +23,8 @@ brother(X,Y) :-
 
 sister(X,Y) :-
   sibling(X,Y),
-  female(X).
+  female(X),
+  format("~s", [X]).
 
 uncle(X,Y) :-
   father(A,Y), brother(X,A);
@@ -48,3 +48,8 @@ grannie(X,Y) :-
 
 grandchild(X,Y) :-
   parent(A,X), child(A,Y).
+
+generations(NumberOfGenerations, Target, X) :-
+  parent(A,Target),
+  X is NumberOfGenerations + 1,
+  generations(X,A,X).
