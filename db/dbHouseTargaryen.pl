@@ -9,7 +9,12 @@ male("maegor i targaryen").
 male("aegon i targaryen").
 male("orys baratheon").
 male("aenys i targaryen").
-male("orys baratheon").
+male("jaehaerys i targaryen").
+male("viserys i targaryen").
+male("viserys ii targaryen").
+male("aegon ii targaryen").
+male("aegon iii targaryen").
+male("aemond targaryen").
 
 
 female("daenys targaryen").
@@ -18,5 +23,5 @@ female("aelix targaryen").
 female("velena velaryon").
 female("visenya targaryen").
 female("rhaenys targaryen").
-female("rhaenys targaryen").
-
+female("alysanne targaryen").
+female("rhaenyra targaryen").
