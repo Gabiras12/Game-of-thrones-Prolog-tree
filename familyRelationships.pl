@@ -49,7 +49,12 @@ grannie(X,Y) :-
 grandchild(X,Y) :-
   parent(A,X), child(A,Y).
 
-generations(NumberOfGenerations, Target, X) :-
-  parent(A,Target),
-  X is NumberOfGenerations + 1,
-  generations(X,A,X).
+generations(X, Y, Num) :-
+  parent(X,Y),
+  Num = 1,
+  !.
+
+generations(X, Y, Num):-
+  parent(X,Z),
+  generations(Z, Y, Num2),
+  Num is Num2 + 2.
