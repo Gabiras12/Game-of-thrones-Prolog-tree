@@ -4,13 +4,15 @@ mother(X,Y) :-
 
 mother(X):-
   mother(A,X),
-  write(A), write(' is the mother of '), write(X).
+  format("~s is the mother of ~s", [A,X]).
 
 father(X,Y) :-
   parent(X,Y),
   male(X).
 
-father(X) :- father(A,X), write(A), write(' is the father of '), write(X).
+father(X) :-
+  father(A,X),
+  format("~s is the father of ~s", [A,X]).
 
 child(X,Y) :-
   parent(A,X),
@@ -18,7 +20,7 @@ child(X,Y) :-
 
 childs(X) :-
   child(A,X),
-  write(A), write(' is the child of '), write(X).
+  format("~s is the child of ~s", [A,X]).
 
 sibling(X,Y) :-
   father(A, X),
@@ -30,12 +32,12 @@ sibling(X,Y) :-
 brother(X,Y) :-
   sibling(X,Y),
   male(X),
-  write(X), write(' is the brother of '), write(Y).
+  format("~s is the brother of ~s", [X,Y]).
 
 sister(X,Y) :-
   sibling(X,Y),
   female(X),
-  write(X), write(' is the sister of '), write(Y).
+  format("~s is the sister of ~s", [X,Y]).
 
 uncle(X,Y) :-
   father(A,Y), brother(X,A);
@@ -76,7 +78,8 @@ different_sex(X, Y) :-
 
 pretender(X, Y) :-
   different_sex(X, Y),
-  true \= sibling(X, Y).
+  true \= sibling(X, Y),
+  format("~s", [X]).
 
 countKill(X,Num):-
   findall(X, killed(X,_), Xs),
