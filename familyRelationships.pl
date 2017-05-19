@@ -58,3 +58,12 @@ generations(X, Y, Num):-
   parent(X,Z),
   generations(Z, Y, Num2),
   Num is Num2 + 2.
+
+different_sex(X, Y) :-
+    male(X), female(Y);
+    male(Y), female(X).
+
+pretender(X, Y) :-
+    different_sex(X, Y),
+    true \= sibling(X, Y).
+    
