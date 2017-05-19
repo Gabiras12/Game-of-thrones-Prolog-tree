@@ -15,19 +15,23 @@ killed("cersei lannister", "kevan lannister").
 killed("cersei lannister", "mace tyrell").
 killed("cersei lannister", "loras tyrell").
 killed("cersei lannister", "the high sparrow").
+killed("cersei lannister", "robert baratheon").
 
 killed("sansa stark", "ramsay bolton").
 
 killed("ramsay bolton", "rickon stark").
 
 killed("jaime lannister", "aerys ii targaryen").
+killed("jaime lannister", "jory cassel").
 
 killed("mirri maz duur", "rhaego i targaryen").
+killed("mirri maz duur", "khal drogo").
 
 killed("daenerys i targaryen", "khal moro").
 killed("daenerys i targaryen", "xaro xhoan daxos").
 killed("daenerys i targaryen", "doreah").
 killed("daenerys i targaryen", "mirri maz duur").
+killed("daenerys i targaryen", "viserys targaryen").
 
 killed("ygritte", "pyp").
 
@@ -60,8 +64,15 @@ killed("montanha", "oberyn martell").
 killed("littlefinger", "lysa arryn").
 killed("littlefinger", "ross").
 
+killed("littlefinger", "jon arryn").
+killed("lysa arryn", "jon arryn").
+
 killed("littlefinger", "joffrey baratheon").
 killed("olenna tyrell", "joffrey baratheon").
+
+killed("joffrey baratheon", "eddard stark");
+
+killed("will", "eddard stark");
 
 
 
