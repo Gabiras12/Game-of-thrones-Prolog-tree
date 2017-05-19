@@ -30,6 +30,10 @@ killed("ramsay bolton", "roose bolton").
 
 killed("ellaria sand", "doran martell").
 
+killed("brienne of tarth", "stannis baratheon").
+
+killed("stannis baratheon, "shireen baratheon").
+
 
 
 
