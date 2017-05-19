@@ -70,10 +70,8 @@ killed("lysa arryn", "jon arryn").
 killed("littlefinger", "joffrey baratheon").
 killed("olenna tyrell", "joffrey baratheon").
 
-killed("joffrey baratheon", "eddard stark");
+killed("joffrey baratheon", "eddard stark").
 
-killed("will", "eddard stark");
-
-
-
-
+killed("will", "eddard stark").
+killed("rodrigo", "will").
+killed("pedro","rodrigo").
