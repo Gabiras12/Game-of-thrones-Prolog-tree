@@ -4,6 +4,11 @@ killed("aryah stark", "walder rivers").
 killed("aryah stark", "waif").
 killed("aryah stark", "meryn trant").
 
+% casamento vermelho
+killed("walder rivers", "catelyn stark").
+killed("roose bolton", "robb stark").
+killed("lothar frey", "talissa stark").
+
 % burned alive in a wildfire explosion orchestrated by Cersei
 killed("cersei lannister", "margaery tyrell").
 killed("cersei lannister", "kevan lannister").
@@ -19,10 +24,14 @@ killed("jaime lannister", "aerys ii targaryen").
 
 killed("daenerys i targaryen", "khal moro").
 
-killed("jolly", "jon snow").
+killed("ygritte", "pyp").
+
+killed("olly", "ygritte").
+killed("olly", "jon snow").
 
 killed("jon snow", "olly").
 killed("jon snow", "alliser thorne").
+killed("jon snow", "styr").
 
 killed("ramsay bolton", "osha").
 killed("ramsay bolton", "walda bolton").
@@ -32,7 +41,20 @@ killed("ellaria sand", "doran martell").
 
 killed("brienne of tarth", "stannis baratheon").
 
-killed("stannis baratheon, "shireen baratheon").
+killed("stannis baratheon", "shireen baratheon").
+
+killed("tyrion lannister", "tywin lannister").
+killed("tyrion lannister", "shae").
+
+killed("oberyn martell", "montanha").
+
+killed("montanha", "oberyn martell").
+
+killed("littlefinger", "lysa arryn").
+killed("littlefinger", "ros").
+
+killed("littlefinger", "joffrey baratheon").
+killed("olenna tyrell", "joffrey baratheon").
 
 
 
