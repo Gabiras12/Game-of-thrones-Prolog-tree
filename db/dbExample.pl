@@ -48,3 +48,30 @@ parent(genilto, gilmar).
 
 parent(gilto, valeria).
 parent(cleide, valeria).
+
+
+ownsLand(gilto).
+ownsLand(gilto).
+ownsLand(gilto).
+ownsLand(gilto).
+ownsLand(gilto).
+
+ownsLand(givaldo).
+ownsLand(givaldo).
+ownsLand(givaldo).
+
+ownsLand(alex).
+ownsLand(alex).
+
+isBeautiful(alex).
+isBeautiful(givaldo).
+
+killed(gabriel, maria).
+killed(gabriel, valeria).
+killed(gabriel, gilto).
+killed(gabriel, herica).
+killed(gabriel, alex).
+
+killed(fatima, gabriel).
+killed(benedito, fatima).
+killed(lucivaldo, benedito).
